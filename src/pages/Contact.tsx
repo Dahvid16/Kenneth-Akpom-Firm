@@ -62,7 +62,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: ['kennethakpom.associates@gmail.com', 'consultation@ka.associates.ng'],
+      details: [`kennethakpom.associates\n@gmail.com`, 'consultation@ka.associates.ng'],
       description: 'Send us an email and we\'ll respond within 24 hours'
     },
     {
@@ -113,12 +113,12 @@ const Contact = () => {
         <div className="container-custom flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-[90%] md:w-full">
             {contactInfo.map((info, index) => (
-              <div key={index} className="card-elegant text-center hover-lift">
+              <div key={index} className="card-elegant flex flex-col items-center justify-center text-wrap text-center hover-lift">
                 <info.icon className="h-12 w-12 text-gold mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-3">{info.title}</h3>
                 <div className="space-y-1 mb-3">
                   {info.details.map((detail, detailIndex) => (
-                    <p key={detailIndex} className="text-foreground font-medium">
+                    <p key={detailIndex} className="text-center text-foreground font-medium md:text-[0.9rem]">
                       {detail}
                     </p>
                   ))}
@@ -131,7 +131,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Form and Map */}
-  <section className="py-16 md:py-20 md:px-0 px-1 section-padd" id="form">
+      <section className="py-16 md:py-20 md:px-0 px-1 section-padd" id="form">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}

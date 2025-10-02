@@ -30,7 +30,7 @@ const Header = () => {
               animate = {{opacity: 1, scale: 1}}
               transition={{delay: 0.4, type: "spring", stiffness: 50}}
             >
-              <img className="h-12 w-12 text-gold" src={Logo} />
+              <img className="h-12 w-12 text-gold" src={Logo} alt='KAA_Logo' />
             </motion.div>
             <motion.div className="flex flex-col leading-tight"
             initial= {{x: "-1000px"}}

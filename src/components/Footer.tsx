@@ -128,7 +128,7 @@ const Footer = () => {
             {/* Logo and Description */}
             <div>
               <Link to="/" className="flex items-center space-x-2 mb-4">
-                <img className="h-12 w-12 text-gold" src={Logo} />
+                <img className="h-12 w-12 text-gold" src={Logo} alt='KKA_Logo' />
                 <div className="flex flex-col leading-tight">
                   <span className="text-heading text-lg font-bold tracking-wide">
                     Kenneth Akpom<div className='flex-nowrap text-lg tracking-widerr'> & Associates</div>
@@ -154,7 +154,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="h-5 w-5 text-gold" />
                 <span className='cursor-pointer hover:text-gold transition-all duration-300'>
-                  <a href="mailto:support@example.com" target="_blank" rel="noopener noreferrer">
+                  <a href="mailto:kennethakpom.associates@gmail.com" target="_blank" rel="noopener noreferrer">
                     kennethakpom.associates@gmail.com
                   </a>
                 </span>
@@ -169,10 +169,10 @@ const Footer = () => {
             <OnReveal>
             {/* Social Media Links */}
             <div className="flex space-x-6">
-              <a href="#" className="p-3 bg-white/10 rounded-lg hover:bg-gold hover:text-primary transition-all duration-300">
+              <a href="#" className="p-3 bg-white/10 rounded-lg hover:bg-gold hover:text-primary transition-all duration-300" aria-label='Visit our FaceBook Page'>
                 <FaFacebookF className="h-6 w-6" />
               </a>
-              <a href="#" className="p-3 bg-white/10 rounded-lg hover:bg-gold hover:text-primary transition-all duration-300">
+              <a href="https://wa.me/2348162016410?text=Good%20Day%20Sir.%20I%20got%20your%20number%20from%20your%20website.%20I.." className="p-3 bg-white/10 rounded-lg hover:bg-gold hover:text-primary transition-all duration-300" aria-label='Visit our Whatsapp Page'>
                 <FaWhatsapp className="h-6 w-6" />
               </a>
             </div>

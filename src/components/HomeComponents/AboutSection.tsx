@@ -42,7 +42,7 @@ const AboutSection = () => {
           <div className="grid grid-cols-2 gap-8 animate-scale-in text-center">
             <OnReveal>
             <div className="flex items-center flex-col justify-center card-elegant gap-6 w-11/12 h-44">
-              <h3 className="md:text-4xl text-3xl font-bold text-gold"><CountUpOnView end={100}/>%</h3>
+              <h3 className="md:text-4xl text-3xl font-bold text-gold/100"><CountUpOnView end={100}/>%</h3>
               <p className="text-muted-foreground md:text-xl text-lg">Nigeria-wide coverage</p>
             </div>
             </OnReveal>
