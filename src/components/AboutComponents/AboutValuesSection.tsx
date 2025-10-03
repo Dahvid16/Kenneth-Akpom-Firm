@@ -49,7 +49,7 @@ const AboutValuesSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-10/12 md:w-full">
             {values.map((value, index) => (
               <OnReveal>
-              <div key={index} className="card-elegant text-center hover-lift h-60 md:h-full">
+              <div key={index} className="card-elegant text-center hover-lift h-full md:h-full">
                 <value.icon className="h-12 w-12 text-gold mx-auto mb-4" />
                 <motion.h3 className="text-lg font-semibold mb-3"
                 initial={{ opacity: 0, y: 75 }}
