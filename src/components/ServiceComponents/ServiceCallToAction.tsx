@@ -30,9 +30,9 @@ const ServiceCallToAction = () => {
             </Link>
             </OnReveal>
             <OnReveal>
-            <a href="tel:+2348031234567">
+            <a href="tel:+234 816 201 6410">
               <button className="btn-outline border-black text-black hover:bg-black hover:text-blue-100 flex items-center justify-center p-[0.6rem] gap-2">
-                <FaPhone/> Call Now: +234 803 123 4567
+                <FaPhone/> Call Now: +234 816 201 6410
               </button>
             </a>
             </OnReveal>
